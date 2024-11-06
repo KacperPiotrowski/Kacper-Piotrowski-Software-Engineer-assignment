@@ -1,0 +1,154 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/kacperpiotrowski/Downloads/Kacper Piotrowski-Software Engineer assignment/Webbing.Assignment/Webbing.Assignment.Api.csproj": {}
+  },
+  "projects": {
+    "/Users/kacperpiotrowski/Downloads/Kacper Piotrowski-Software Engineer assignment/Webbing.Assignment.Service/Webbing.Assignment.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kacperpiotrowski/Downloads/Kacper Piotrowski-Software Engineer assignment/Webbing.Assignment.Service/Webbing.Assignment.Service.csproj",
+        "projectName": "Webbing.Assignment.Service",
+        "projectPath": "/Users/kacperpiotrowski/Downloads/Kacper Piotrowski-Software Engineer assignment/Webbing.Assignment.Service/Webbing.Assignment.Service.csproj",
+        "packagesPath": "/Users/kacperpiotrowski/.nuget/packages/",
+        "outputPath": "/Users/kacperpiotrowski/Downloads/Kacper Piotrowski-Software Engineer assignment/Webbing.Assignment.Service/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kacperpiotrowski/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kacperpiotrowski/Downloads/Kacper Piotrowski-Software Engineer assignment/Webbing.Assignment/Webbing.Assignment.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kacperpiotrowski/Downloads/Kacper Piotrowski-Software Engineer assignment/Webbing.Assignment/Webbing.Assignment.Api.csproj",
+        "projectName": "Webbing.Assignment.Api",
+        "projectPath": "/Users/kacperpiotrowski/Downloads/Kacper Piotrowski-Software Engineer assignment/Webbing.Assignment/Webbing.Assignment.Api.csproj",
+        "packagesPath": "/Users/kacperpiotrowski/.nuget/packages/",
+        "outputPath": "/Users/kacperpiotrowski/Downloads/Kacper Piotrowski-Software Engineer assignment/Webbing.Assignment/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kacperpiotrowski/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "/usr/local/share/dotnet/sdk/7.0.307/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/kacperpiotrowski/Downloads/Kacper Piotrowski-Software Engineer assignment/Webbing.Assignment.Service/Webbing.Assignment.Service.csproj": {
+                "projectPath": "/Users/kacperpiotrowski/Downloads/Kacper Piotrowski-Software Engineer assignment/Webbing.Assignment.Service/Webbing.Assignment.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.19.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
